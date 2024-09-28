@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-7 bg-slate-700 mb-4 xl:rounded-xl">
     <div class="relative flex h-16 items-center justify-between">
       <div class="hidden sm:ml-2 sm:block">
-        <div class="flex space-x-4 text-xl">
+        <div class="route-button">
           <a
             v-for="route in routes"
             :key="route.name"
@@ -24,4 +24,8 @@ import router from '@/router'
 const routes = router.getRoutes()
 </script>
 
-<style scoped></style>
+<style scoped>
+.route-button {
+  @apply flex space-x-4 text-xl;
+}
+</style>
