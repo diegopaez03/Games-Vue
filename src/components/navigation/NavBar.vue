@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-7 bg-slate-700 mb-4 xl:rounded-xl">
+  <div class="mx-auto w-screen 2xl:max-w-7xl px-2 sm:px-6 lg:px-7 bg-slate-700 mb-4 xl:rounded-xl">
     <div class="relative flex h-16 items-center justify-between">
       <div class="hidden sm:ml-2 sm:block">
         <div class="route-button">
